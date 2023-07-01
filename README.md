@@ -4,6 +4,7 @@ This repository trims all built-in TensorFlow components used for model training
 
 With ≈450 MB reduction in module size, ≈150%-200% the speed to load a model, and slightly faster model inference, this repository outperforms the `@tensorflow/tfjs-node` module in resource efficiency.
 
+<br>
 
 ## Code Comparison
 `@tensorflow/tfjs-node`:
@@ -49,7 +50,6 @@ run()
 ```bash
 node setup.js
 ```
-
 <br>
 
 ## Sample Model?
