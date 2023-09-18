@@ -16,6 +16,6 @@ const download = async (url, path) => {
     await streamPipeline(response.body, fs.createWriteStream(path));
 };
 
-url = "https://huggingface.co/FredZhang7/bert-multilingual-toxicity-v2/resolve/main/tensorflow.dll"
+url = "https://huggingface.co/FredZhang7/one-for-all-toxicity-v3/resolve/main/tensorflow.dll"
 
 download(url, "tfjs-node-tiny/tfnapi-v8/tensorflow.dll")
